@@ -1,21 +1,18 @@
-# Проектная работа "Веб-ларек"
+# Интернет магазин "Веб-ларек"
 
-Стек: HTML, SCSS, TS, Webpack
+"Веб-ларек" - это проект интернет-магазина с товарами. В нём можно посмотреть каталог товаров, добавить товары в корзину и сделать заказ.
 
-Структура проекта:
+<img width="400" alt="image" src="./src/images/web-larek.png">
 
-- src/ — исходные файлы проекта
-- src/components/ — папка с JS компонентами
-- src/components/base/ — папка с базовым кодом
+## Стек
 
-Важные файлы:
+<img src='https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white'/> <img src='https://img.shields.io/badge/Webpack-8DD6F9?style=for-the-badge&logo=Webpack&logoColor=white'/> <img src='https://img.shields.io/badge/Babel-F9DC3E?style=for-the-badge&logo=babel&logoColor=white'/> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" /> <img src="https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E" /> <img src="https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white" />
 
-- src/pages/index.html — HTML-файл главной страницы
-- src/types/index.ts — файл с типами
-- src/index.ts — точка входа приложения
-- src/scss/styles.scss — корневой файл стилей
-- src/utils/constants.ts — файл с константами
-- src/utils/utils.ts — файл с утилитами
+## Особенности реализации
+
+- Подготовлено описание архитектуры приложения (ниже по тексту) и объявлены типы данных до реализации проекта
+- Интерфейс разработан на TypeScript, интеграция с API
+- Код приложения разделен на слои согласно парадигме MVP
 
 ## Установка и запуск
 
@@ -31,18 +28,6 @@ npm run start
 ```
 yarn
 yarn start
-```
-
-## Сборка
-
-```
-npm run build
-```
-
-или
-
-```
-yarn build
 ```
 
 ## Данные и типы данных, используемые в приложении
